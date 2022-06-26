@@ -1,4 +1,5 @@
 import { Logo } from 'images/logo.svg';
+import './styles.css';
 
 export const Balance = () => {
     return (
