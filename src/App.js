@@ -1,6 +1,6 @@
 import './App.css';
-import { Balance } from 'components/Balance';
-import { Chart } from 'compponents/Chart';
+import { Balance } from './components/Balance';
+import { Chart } from './components/Chart';
 
 function App() {
   return (
