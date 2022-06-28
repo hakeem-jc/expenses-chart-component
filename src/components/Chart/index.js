@@ -3,7 +3,7 @@ import './styles.css';
 export const Chart = () => {
     return (
         <section className="chart">
-            <h1 className="chart__title"></h1>
+            <h1 className="chart__title">Spending - Last 7 days</h1>
             <div className="chart__bars">
                 
             </div>
