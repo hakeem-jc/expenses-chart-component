@@ -1,0 +1,21 @@
+.balance {
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.balance__title, .balance__value {
+    color: white;
+}
+
+.balance__title {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.balance__value {
+    font-size: 1.4rem;
+}
