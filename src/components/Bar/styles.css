@@ -1,0 +1,22 @@
+.bar__container {
+    width: 50px;
+    height: 20px;
+}
+
+.bar {
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+}
+
+.bar__text {
+    margin-top: 10px;
+}
+
+.bar--cyan {
+    background-color: hsl(186, 34%, 60%);
+}
+
+.bar--soft-red {
+    background-color: hsl(10, 79%, 65%);
+}
