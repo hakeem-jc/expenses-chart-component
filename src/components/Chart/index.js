@@ -4,8 +4,15 @@ import { data } from './data';
 
 export const Chart = () => {
 
+    let getToday = () => {
+        const date = new Date();
+        let day = date.getDay();
+        const week = ['sun','mon','tue','wed','thu','fri','sat'];
+        return week[day];
+    }
+
     let bars = data.map((entry,i) => {
-        return <Bar data={entry} key={i}/>
+        return <Bar data={entry} key={i} today={getToday()}/>
     });
 
     return (
