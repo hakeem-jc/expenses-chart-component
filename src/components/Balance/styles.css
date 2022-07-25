@@ -20,3 +20,13 @@
 .balance__value {
     font-size: 1.4rem;
 }
+
+@media only screen and (min-width: 768px) {
+    .balance__title {
+        font-size: 1.5rem;
+    }
+
+    .balance__value {
+        font-size: 1.6rem;
+    }
+}
