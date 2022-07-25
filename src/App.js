@@ -5,10 +5,8 @@ import { Chart } from './components/Chart';
 function App() {
   return (
     <section className="app">
-      <div className='app__container'>
-          <Balance />
-          <Chart />
-      </div>
+      <Balance />
+      <Chart />
     </section>
   );
 }

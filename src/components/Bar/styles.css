@@ -29,10 +29,29 @@
     border-radius: 2px;
     padding: 1px 0px;
     margin-bottom: 5px;
+    width: 38px;
 }
 
 .bar__tooltip p {
     color: white;
-    width: 40px;
     font-size: 10px;
+}
+
+@media only screen and (min-width: 768px){
+    .bar__container { 
+        width: 85px;
+    }
+
+    .bar__tooltip { 
+        width: 78px;
+
+    }
+
+    .bar__tooltip p { 
+        font-size: 15px;
+    }
+
+    .bar__text {
+        font-size: 20px;
+    }
 }
