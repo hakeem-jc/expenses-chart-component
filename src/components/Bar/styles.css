@@ -22,3 +22,17 @@
 .bar--soft-red {
     background-color: hsl(10, 79%, 65%);
 }
+
+.bar__tooltip {
+    background-color: black;
+    text-align: center;
+    border-radius: 2px;
+    padding: 1px 0px;
+    margin-bottom: 5px;
+}
+
+.bar__tooltip p {
+    color: white;
+    width: 40px;
+    font-size: 10px;
+}
