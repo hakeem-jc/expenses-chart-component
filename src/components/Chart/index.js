@@ -1,13 +1,17 @@
 import './styles.css';
 import { Bar } from '../Bar';
+import { data } from './data';
 
 export const Chart = () => {
+
+    let bars = data.map((entry,i) => {
+        return <Bar data={entry} key={i}/>
+    });
+
     return (
         <section className="chart">
             <h1 className="chart__title">Spending - Last 7 days</h1>
-            <div className="chart__bars">
-                <Bar day='Mon'/>
-            </div>
+            <div className="chart__bars">{bars}</div>
             <div className="chart__summary">
                 <h5 className="chart__text">Total this month</h5>
                 <div className="chart__summary-flex">
