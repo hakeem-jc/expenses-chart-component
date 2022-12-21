@@ -17,7 +17,7 @@ export const Chart = () => {
 
     return (
         <section className="chart">
-            <h4 className="chart__title">Spending - Last 7 days</h4>
+            <h1 className="chart__title">Spending - Last 7 days</h1>
             <div className="chart__bars">{bars}</div>
             <div className="chart__summary">
                 <h5 className="chart__text">Total this month</h5>
